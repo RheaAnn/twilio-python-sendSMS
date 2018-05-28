@@ -31,6 +31,7 @@ def values(age, systolic, diastolic):
     elif(9<=age<=10):
         print("crititcal")
         bplevel = 2
+
     sendSMS(bplevel);
 
 age = random.randint(5,10)
@@ -39,6 +40,7 @@ systolic = random.randint(1,10)
 print("systolic: ", systolic)
 diastolic = random.randint(1,20)
 print ("diastolic", diastolic)
+
 values(age, systolic, diastolic);
 
 
